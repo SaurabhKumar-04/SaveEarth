@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 0;
+    padding: 0;
+    text-align: center;
+}
+.container img {
+    margin-top: -50px;
+
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+#websitetitle {
+    background-color: darkgreen;
+    border-radius: 5px;
+    margin: 0;
+    padding-top: -10px;
+    height: 40px
+}
+#navmenu {
+
+    margin-top: -20px;
+    height: 40px;
+    align-items: center;
+}
+header {
+
+    color: limegreen;
+    padding: 0px 4px;
+    text-align: center;
+}
+.site-title {
+    margin: 0;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    text-align: center;
+    padding-top: 7px;
+}
+nav ul li a {
+    color: limegreen;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    width: 1000px;
+    font-weight: bolder;
+    font-style: italic;
+    border: -20px;
+    background-color: darkgreen;
+    font-size: 20px;
+    color: lawngreen;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: darkgreen;
+
+}
+section {
+    padding: 50px 0;
+}
+section h2 {
+    margin-bottom: 20px;
+}
+section p {
+    margin-bottom: 20px;
+}
+#homepage {
+    background-color: #f9f9f9;
+}
+#product-lifecycle {
+    background-color: #e0e0e0;
+}
+#production {
+    background-color: #d3d3d3;
+}
+#usage {
+    background-color: #c0c0c0;
+}
+#recycling {
+    background-color: #b0c4de;
+}
+#disposal {
+    background-color: #add8e6;
+}
+#interactive {
+    background-color: #87ceeb;
+}
+#resources {
+    background-color: #00bfff;
+}
+.media-placeholder,
+.flowchart-placeholder,
+.production-info,
+.usage-info,
+.recycling-info,
+.disposal-info,
+.interactive-elements,
+.resources-links {
+    height: 200px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.media-placeholder,
+.flowchart-placeholder {
+    height: 300px;
+}
+.counter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.counter h3 {
+    color: #007bff;
+    font-size: 20px;
+}
+.counter p {
+    font-size: 24px;
+}
+.cta {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cta .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.cta .btn:hover {
+    background-color: green;
+}
+.testimonials {
+    margin-bottom: 30px;
+}
+.testimonials h3 {
+    color: #007bff;
+    font-size: 20px;
+}
+.testimonials blockquote {
+    font-style: italic;
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.testimonials blockquote cite {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+    font-style: normal;
+}
+.additional-info {
+    margin-top: 30px;
+}
+.additional-info h3 {
+    color: #007bff;
+    font-size: 20px;
+}
+.additional-info p {
+    margin-bottom: 20px;
+}
+.additional-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.additional-info ul li {
+    margin-bottom: 10px;
+}
+.additional-info ul li:last-child {
+    margin-bottom: 0;
+}
+#facts {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+#facts h3 {
+    color: #007bff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#facts ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+#facts li {
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+#showMoreBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#showMoreBtn:hover {
+    background-color: #0056b3;
+}
+#product-lifecycle {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lifecycle-stage {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.lifecycle-stage h2 {
+    margin-bottom: 10px;
+}
+
+.lifecycle-stage p {
+    margin-bottom: 20px;
+}
+
+.mainimg1 {
+    overflow: visible;
+    object-fit: cover;
+    max-width: 1350px;
+}
+
+div h2:hover {
+    color: limegreen;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .site-title {
+        font-size: 24px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li:last-child {
+        margin-right: 0;
+    }
+
+    .social-icon {
+        margin-right: 5px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+}
